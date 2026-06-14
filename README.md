@@ -52,28 +52,13 @@ A premium movie discovery app built with **React**, **Vite**, **Firebase**, and 
    npm install
    ```
 
-3. **Set up environment variables**
-
-   Create a `.env.local` file in the root directory:
-
-   ```env
-   VITE_TMDB_API_KEY=your_tmdb_read_access_token
-
-   VITE_FIREBASE_API_KEY=your_firebase_api_key
-   VITE_FIREBASE_AUTH_DOMAIN=your_project.firebaseapp.com
-   VITE_FIREBASE_PROJECT_ID=your_project_id
-   VITE_FIREBASE_STORAGE_BUCKET=your_project.firebasestorage.app
-   VITE_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
-   VITE_FIREBASE_APP_ID=your_app_id
-   ```
-
-4. **Configure Firebase**
+3. **Configure Firebase**
    - Create a project in [Firebase Console](https://console.firebase.google.com/)
    - Enable **Authentication** → Email/Password and Google sign-in providers
    - Create a **Firestore Database** (the app uses a `metrics` collection for search tracking)
    - Add `localhost` to your authorized domains
 
-5. **Start the development server**
+4. **Start the development server**
    ```bash
    npm run dev
    ```
