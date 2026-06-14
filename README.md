@@ -125,6 +125,3 @@ The app uses a **cinema-noir** aesthetic with a red-tinted color palette:
 
 This project is open source and available under the [MIT License](LICENSE).
 
----
-
-Made with ❤️ by [Prashant Jaybhaye](https://github.com/PrashantJaybhaye)
